@@ -8,7 +8,6 @@ from typing import Any, Callable, Dict, List, Optional, Tuple
 import requests
 from dotenv import load_dotenv
 
-# Official MCP SDK Imports (Compatible with mcp >= 2.0.0)
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 
